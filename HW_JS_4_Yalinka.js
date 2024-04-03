@@ -17,3 +17,27 @@ function triangle (height , symbol){
 }
 
 triangle(6,"*");
+
+// second option - While
+
+
+function triangle_2(height, symbol) {
+
+let i = 1;
+
+while (i <= height) {
+
+    let line = "";
+
+    let j = 1;
+
+    while (j <= i) {
+      line = line + symbol;
+        j++;
+    }
+    console.log(line);
+    i++;
+}
+}
+
+triangle_2(5, "*");
