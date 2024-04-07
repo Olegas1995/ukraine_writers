@@ -8,15 +8,15 @@ function triangle (height , symbol){
 
         for (let j = 1; j <= i; j++){
 
-            line = line + symbol
+            line = line + symbol;
         }
 
-        console.log (line)
+        console.log (line);
         
     }
 }
 
-triangle(6,"*");
+
 
 // second option - While
 
@@ -40,4 +40,3 @@ while (i <= height) {
 }
 }
 
-triangle_2(5, "*");
