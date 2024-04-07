@@ -16,7 +16,7 @@ function triangle (height , symbol){
     }
 }
 
-triangle(5,"*");
+
 
 // second option - While
 
@@ -40,4 +40,3 @@ while (i <= height) {
 }
 }
 
-triangle_2(5, "*");
